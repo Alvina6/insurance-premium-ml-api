@@ -123,7 +123,7 @@ if st.button("Predict Premium Category"):
     try:
 
         response = requests.post(
-            "http://127.0.0.1:8000/predict",
+            "http://backend:8000/predict",
             json=data
         )
 
